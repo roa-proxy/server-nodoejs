@@ -1,0 +1,14 @@
+{
+	"http": {
+		"port": 8081
+	},
+	"https": {
+		"port": 8082,
+		"cert": "../cert.pem",
+		"key": "../key.pem"
+	},
+	"users": [{
+		"username": "some-user",
+		"password": "123"
+	}]
+}

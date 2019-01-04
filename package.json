@@ -1,0 +1,21 @@
+{
+  "name": "roa",
+  "author": {
+    "name": "Roa",
+    "email": "roa.proxy@gmail.com"
+  },
+  "description": "An onion modeled proxy which originally designed for Telegram and serve with socks5",
+  "keywords": ["proxy", "socks5", "tls proxy", "telegram"],
+  "license": "MIT",
+  "main": "dist/Run.js",
+  "version": "0.0.1",
+  "dependencies": {
+    "command-line-args": "^5.0.2"
+  },
+  "devDependencies": {
+    "@types/command-line-args": "^5.0.0",
+    "@types/node": "^10.12.18",
+    "tslint": "^5.12.0",
+    "typescript": "^3.2.2"
+  }
+}

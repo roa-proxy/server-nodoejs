@@ -1,0 +1,16 @@
+{
+	"socks": {
+		"port": 8083
+	},
+	"users": [{
+		"username": "some-user",
+		"password": "123"
+	}],
+	"upstream": [{
+		"protocol": "https",
+		"ip": "127.0.0.1",
+		"port": 8082,
+		"username": "some-user",
+		"password": "123"
+	}]
+}
